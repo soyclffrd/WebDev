@@ -1,0 +1,1820 @@
+.admin-dashboard {
+  background-color: #f7fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.admin-dashboard .overlap-wrapper {
+  background-color: var(--graygray-50);
+  width: 1920px;
+  height: 1232px;
+}
+
+.admin-dashboard .overlap {
+  position: relative;
+  height: 1208px;
+}
+
+.admin-dashboard .background {
+  position: absolute;
+  width: 1920px;
+  height: 422px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .frame {
+  position: absolute;
+  width: 1491px;
+  height: 95px;
+  top: 0;
+  left: 429px;
+}
+
+.admin-dashboard .dashboard {
+  position: absolute;
+  width: 1547px;
+  height: 1035px;
+  top: 168px;
+  left: 342px;
+}
+
+.admin-dashboard .project-card {
+  position: absolute;
+  width: 1031px;
+  height: 486px;
+  top: 549px;
+  left: 516px;
+  box-shadow: 0px 5px 10px #0000001a;
+}
+
+.admin-dashboard .overlap-group {
+  position: relative;
+  width: 1059px;
+  height: 514px;
+  top: -9px;
+  left: -14px;
+  background-image: url(./img/background-1.png);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .cards {
+  position: absolute;
+  width: 991px;
+  height: 406px;
+  top: 86px;
+  left: 45px;
+}
+
+.admin-dashboard .div {
+  position: absolute;
+  width: 488px;
+  height: 384px;
+  top: 6px;
+  left: 503px;
+}
+
+.admin-dashboard .card {
+  position: absolute;
+  width: 462px;
+  height: 370px;
+  top: 14px;
+  left: 26px;
+  background-color: #89898938;
+  border-radius: 20px;
+}
+
+.admin-dashboard .text-wrapper {
+  position: absolute;
+  width: 468px;
+  height: 372px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: var(--graygray-200);
+}
+
+.admin-dashboard .text {
+  position: relative;
+  width: 357px;
+  height: 77px;
+  top: 161px;
+  left: 70px;
+}
+
+.admin-dashboard .text-wrapper-2 {
+  position: absolute;
+  width: 355px;
+  top: 52px;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 800;
+  color: var(--graygray-500);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .ionicon-a-add {
+  position: absolute;
+  width: 59px;
+  height: 35px;
+  top: 0;
+  left: 143px;
+}
+
+.admin-dashboard .card-2 {
+  position: absolute;
+  width: 493px;
+  height: 406px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .overlap-2 {
+  position: absolute;
+  width: 491px;
+  height: 190px;
+  top: 216px;
+  left: 9px;
+}
+
+.admin-dashboard .avatars-group {
+  position: absolute;
+  width: 77px;
+  height: 25px;
+  top: 155px;
+  left: 386px;
+}
+
+.admin-dashboard .overlap-group-2 {
+  position: relative;
+  width: 79px;
+  height: 25px;
+}
+
+.admin-dashboard .avatar {
+  position: absolute;
+  width: 26px;
+  height: 21px;
+  top: 2px;
+  left: 0;
+}
+
+.admin-dashboard .img {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: 0;
+  left: 15px;
+}
+
+.admin-dashboard .avatar-2 {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: 0;
+  left: 32px;
+}
+
+.admin-dashboard .avatar-3 {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  top: 0;
+  left: 50px;
+}
+
+.admin-dashboard .text-2 {
+  position: absolute;
+  width: 491px;
+  height: 190px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .button-base {
+  display: flex;
+  width: 144px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+  position: absolute;
+  top: 151px;
+  left: 0;
+  background-color: var(--graygray-700);
+  border-radius: 8px;
+}
+
+.admin-dashboard .width-structure {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.admin-dashboard .height-structure {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  position: relative;
+}
+
+.admin-dashboard .button-body {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .text-3 {
+  position: relative;
+  width: 47.5px;
+  height: 15px;
+  margin-top: -0.5px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--blackampwhitewhite);
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10px;
+}
+
+.admin-dashboard .min-width {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 0px 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .content {
+  position: relative;
+  width: 1px;
+  height: 1px;
+  margin-right: -0.99px;
+  background-color: #c4c4c4;
+}
+
+.admin-dashboard .surigao-city {
+  width: 485px;
+  top: 51px;
+  left: 0;
+  font-weight: 900;
+  color: var(--graygray-400);
+  font-size: 17px;
+  line-height: 25.5px;
+  position: absolute;
+  font-family: "Kumbh Sans", Helvetica;
+  letter-spacing: 0;
+}
+
+.admin-dashboard .text-wrapper-3 {
+  position: absolute;
+  width: 151px;
+  top: 24px;
+  left: 3px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 25.2px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .text-wrapper-4 {
+  position: absolute;
+  width: 108px;
+  top: 0;
+  left: 2px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: #00000099;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .image {
+  position: absolute;
+  width: 494px;
+  height: 216px;
+  top: -2px;
+  left: -6px;
+}
+
+.admin-dashboard .text-4 {
+  position: absolute;
+  width: 335px;
+  height: 54px;
+  top: 18px;
+  left: 63px;
+}
+
+.admin-dashboard .text-wrapper-5 {
+  position: absolute;
+  width: 331px;
+  top: 34px;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-400);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .events-activities {
+  position: absolute;
+  width: 203px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-700);
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 32.2px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .content-cards {
+  position: absolute;
+  width: 1019px;
+  height: 415px;
+  top: 123px;
+  left: 0;
+}
+
+.admin-dashboard .profile-information {
+  position: absolute;
+  width: 505px;
+  height: 414px;
+  top: 1px;
+  left: 515px;
+  background-color: var(--blackampwhitewhite);
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px #0000001a;
+}
+
+.admin-dashboard .details {
+  position: absolute;
+  width: 257px;
+  height: 179px;
+  top: 202px;
+  left: 20px;
+}
+
+.admin-dashboard .overlap-group-3 {
+  position: absolute;
+  width: 187px;
+  height: 21px;
+  top: 158px;
+  left: 0;
+}
+
+.admin-dashboard .social-media {
+  position: absolute;
+  width: 86px;
+  height: 17px;
+  top: 4px;
+  left: 100px;
+}
+
+.admin-dashboard .facebook {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .ionicon-l-logo {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 0;
+  left: 36px;
+}
+
+.admin-dashboard .ionicon-l-logo-2 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  left: 72px;
+}
+
+.admin-dashboard .text-wrapper-6 {
+  position: absolute;
+  width: 105px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-500);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .location-united {
+  position: absolute;
+  width: 194px;
+  top: 118px;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-500);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .span {
+  color: #718096;
+}
+
+.admin-dashboard .text-wrapper-7 {
+  color: #746f6f;
+}
+
+.admin-dashboard .email-alecthompson {
+  position: absolute;
+  width: 240px;
+  top: 79px;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-500);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .mobile {
+  position: absolute;
+  width: 200px;
+  top: 40px;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-500);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .full-name-alec-m {
+  position: absolute;
+  width: 247px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-500);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .text-5 {
+  position: absolute;
+  width: 464px;
+  height: 135px;
+  top: 31px;
+  left: 20px;
+}
+
+.admin-dashboard .vector {
+  position: absolute;
+  width: 456px;
+  height: 1px;
+  top: 135px;
+  left: 4px;
+}
+
+.admin-dashboard .p {
+  position: absolute;
+  width: 449px;
+  top: 44px;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+}
+
+.admin-dashboard .text-wrapper-8 {
+  position: absolute;
+  width: 207px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 0.5px transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(224, 225, 226, 0) 0%,
+    rgba(224, 225, 226, 0.33) 50%,
+    rgba(224, 225, 226, 0.05) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .platform-settings {
+  position: absolute;
+  width: 505px;
+  height: 415px;
+  top: 0;
+  left: 0;
+  background-color: var(--blackampwhitewhite);
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px #0000001a;
+}
+
+.admin-dashboard .list {
+  position: absolute;
+  width: 469px;
+  height: 303px;
+  top: 86px;
+  left: 19px;
+}
+
+.admin-dashboard .application {
+  position: absolute;
+  width: 396px;
+  height: 141px;
+  top: 162px;
+  left: 1px;
+}
+
+.admin-dashboard .element {
+  position: absolute;
+  width: 351px;
+  height: 20px;
+  top: 121px;
+  left: 45px;
+}
+
+.admin-dashboard .text-wrapper-9 {
+  position: absolute;
+  width: 349px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .div-wrapper {
+  position: absolute;
+  width: 271px;
+  height: 20px;
+  top: 80px;
+  left: 45px;
+}
+
+.admin-dashboard .text-wrapper-10 {
+  position: absolute;
+  width: 269px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .element-2 {
+  position: absolute;
+  width: 294px;
+  height: 20px;
+  top: 39px;
+  left: 45px;
+}
+
+.admin-dashboard .text-wrapper-11 {
+  position: absolute;
+  width: 292px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .text-wrapper-12 {
+  position: absolute;
+  width: 112px;
+  top: 0;
+  left: 0;
+  font-family: "Saira", Helvetica;
+  font-weight: 800;
+  color: #746f6f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .account {
+  position: absolute;
+  width: 471px;
+  height: 133px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .element-3 {
+  position: absolute;
+  width: 401px;
+  height: 20px;
+  top: 113px;
+  left: 46px;
+}
+
+.admin-dashboard .text-wrapper-13 {
+  position: absolute;
+  width: 399px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .element-4 {
+  position: absolute;
+  width: 425px;
+  height: 20px;
+  top: 72px;
+  left: 46px;
+}
+
+.admin-dashboard .text-wrapper-14 {
+  position: absolute;
+  width: 423px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .element-5 {
+  position: absolute;
+  width: 425px;
+  height: 31px;
+  top: 31px;
+  left: 46px;
+}
+
+.admin-dashboard .text-6 {
+  position: absolute;
+  width: 194px;
+  height: 27px;
+  top: 31px;
+  left: 18px;
+}
+
+.admin-dashboard .text-wrapper-15 {
+  position: absolute;
+  width: 192px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .div-wrapper-2 {
+  position: absolute;
+  width: 1546px;
+  height: 113px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .overlap-3 {
+  position: relative;
+  height: 113px;
+}
+
+.admin-dashboard .rectangle {
+  position: relative;
+  width: 1549px;
+  height: 116px;
+  top: -2px;
+  left: -2px;
+  border-radius: 15px;
+  border: 1.5px solid;
+  border-color: #ffffff;
+  box-shadow: 0px 2px 5.5px #00000005;
+  backdrop-filter: blur(21px) brightness(100%);
+  -webkit-backdrop-filter: blur(21px) brightness(100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+
+.admin-dashboard .tabs {
+  position: absolute;
+  width: 277px;
+  height: 36px;
+  top: 44px;
+  left: 1215px;
+}
+
+.admin-dashboard .overlap-group-4 {
+  position: relative;
+  height: 36px;
+}
+
+.admin-dashboard .projects {
+  display: flex;
+  width: 131px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+  position: absolute;
+  top: 0;
+  left: 146px;
+  border-radius: 12px;
+}
+
+.admin-dashboard .width-structure-2 {
+  margin-left: -2.36px;
+  margin-right: -2.36px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.admin-dashboard .button-body-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 120px;
+  height: 29px;
+  align-items: center;
+  position: relative;
+}
+
+.admin-dashboard .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .icon {
+  position: relative;
+  width: 31px;
+  height: 29px;
+}
+
+.admin-dashboard .text-7 {
+  position: relative;
+  width: 90px;
+  height: 29px;
+  margin-top: -0.5px;
+  margin-left: -12px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .teams {
+  display: flex;
+  width: 150px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 8px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 12px;
+}
+
+.admin-dashboard .width-structure-3 {
+  margin-top: -3px;
+  margin-bottom: -3px;
+  margin-left: -16px;
+  margin-right: -16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.admin-dashboard .height-structure-2 {
+  display: flex;
+  width: 166px;
+  height: 41px;
+  align-items: center;
+  position: relative;
+}
+
+.admin-dashboard .button-body-2 {
+  display: flex;
+  width: 167px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: -1px;
+  overflow: hidden;
+}
+
+.admin-dashboard .icon-2 {
+  position: relative;
+  width: 31px;
+  height: 22px;
+}
+
+.admin-dashboard .text-8 {
+  position: relative;
+  width: 116px;
+  height: 26px;
+  margin-top: -1px;
+  margin-left: -15px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .content-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 0px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.admin-dashboard .avatar-4 {
+  position: absolute;
+  width: 251px;
+  height: 85px;
+  top: 16px;
+  left: 16px;
+}
+
+.admin-dashboard .name {
+  position: absolute;
+  width: 156px;
+  height: 45px;
+  top: 18px;
+  left: 100px;
+}
+
+.admin-dashboard .text-wrapper-16 {
+  position: absolute;
+  width: 152px;
+  top: 26px;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--graygray-500);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .text-wrapper-17 {
+  position: absolute;
+  width: 151px;
+  top: 0;
+  left: 0;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .overlap-4 {
+  position: absolute;
+  width: 83px;
+  height: 85px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .image-2 {
+  position: absolute;
+  width: 78px;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+
+.admin-dashboard .edit-wrapper {
+  position: absolute;
+  width: 25px;
+  height: 26px;
+  top: 59px;
+  left: 58px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5.5px #0000000f;
+}
+
+.admin-dashboard .edit {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 7px;
+  left: 7px;
+}
+
+.admin-dashboard .overview {
+  display: flex;
+  width: 175px;
+  height: 33px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 8px;
+  position: absolute;
+  top: 215px;
+  left: 1369px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5.5px #0000000f;
+}
+
+.admin-dashboard .icon-3 {
+  position: relative;
+  width: 27px;
+  height: 24px;
+  margin-left: -4.5px;
+}
+
+.admin-dashboard .button-body-3 {
+  position: relative;
+  width: 21px;
+  height: 24px;
+  margin-left: -13px;
+}
+
+.admin-dashboard .text-9 {
+  position: relative;
+  width: 143px;
+  height: 30px;
+  margin-left: -13px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: var(--graygray-700);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.admin-dashboard .width-structure-4 {
+  margin-right: -4.5px;
+  margin-left: -13px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.admin-dashboard .height-structure-3 {
+  position: relative;
+  height: 24px;
+}
+
+.admin-dashboard .text-10 {
+  position: absolute;
+  width: 179px;
+  height: 31px;
+  top: 105px;
+  left: 351px;
+}
+
+.admin-dashboard .text-wrapper-18 {
+  position: absolute;
+  width: 177px;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  white-space: nowrap;
+  font-family: "Kumbh Sans", Helvetica;
+  color: var(--blackampwhitewhite);
+  letter-spacing: 0;
+}
+
+.admin-dashboard .frame {
+  position: absolute;
+  width: 517px;
+  height: 414px;
+  top: 292px;
+  left: 1371px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 0.5px solid;
+  border-color: transparent;
+  box-shadow: 0px 5px 14px #0000001a;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(224, 225, 226, 0),
+      rgb(224, 225, 226) 50%,
+      rgba(224, 225, 226, 0.16) 100%
+    )
+    1;
+}
+
+.admin-dashboard .frame-wrapper {
+  display: flex;
+  width: 388px;
+  height: 90px;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 66px 0px 0px;
+  position: absolute;
+  top: 57px;
+  left: 86px;
+}
+
+.admin-dashboard .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -142px;
+}
+
+.admin-dashboard .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .frame-4 {
+  display: flex;
+  width: 320px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .text-wrapper-19 {
+  position: relative;
+  width: 239px;
+  margin-top: -1px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--grey-400);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .create-rich-course-wrapper {
+  position: relative;
+  width: 464px;
+  height: 32px;
+}
+
+.admin-dashboard .create-rich-course {
+  position: absolute;
+  width: 563px;
+  top: 0;
+  left: -49px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: #746f6f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.admin-dashboard .frame-5 {
+  display: flex;
+  width: 388px;
+  height: 91px;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 66px 0px 0px;
+  position: absolute;
+  top: 163px;
+  left: 86px;
+}
+
+.admin-dashboard .frame-6 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -150px;
+}
+
+.admin-dashboard .frame-7 {
+  display: flex;
+  width: 472px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.admin-dashboard .text-wrapper-20 {
+  position: relative;
+  width: 355px;
+  margin-top: -1px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--grey-400);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .create-rich-course-2 {
+  width: 565px;
+  top: -1px;
+  left: -51px;
+  position: absolute;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--grey-400);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.admin-dashboard .frame-8 {
+  display: flex;
+  width: 388px;
+  height: 90px;
+  align-items: center;
+  gap: 32px;
+  padding: 0px 66px 0px 0px;
+  position: absolute;
+  top: 270px;
+  left: 86px;
+}
+
+.admin-dashboard .create-rich-course-3 {
+  width: 563px;
+  top: 0;
+  left: -49px;
+  position: absolute;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 400;
+  color: var(--grey-400);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.admin-dashboard .vuesax-bold-profile-wrapper {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 60px;
+  left: 36px;
+  background-color: #eff3fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-dashboard .img-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 6px;
+}
+
+.admin-dashboard .vuesax-linear-bank-wrapper {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 166px;
+  left: 36px;
+  background-color: #eff3fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-dashboard .vuesax-linear-wrapper {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 272px;
+  left: 36px;
+  background-color: #eff3fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-dashboard .TODAYS-MONEY {
+  position: absolute;
+  width: 375px;
+  height: 123px;
+  top: 718px;
+  left: 345px;
+  box-shadow: 0px 4px 14px #0000001a;
+}
+
+.admin-dashboard .overlap-5 {
+  position: relative;
+  width: 503px;
+  height: 215px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px #0000000d;
+}
+
+.admin-dashboard .title {
+  position: absolute;
+  width: 186px;
+  top: 27px;
+  left: 23px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-400);
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.admin-dashboard .element-6 {
+  position: absolute;
+  width: 61px;
+  top: 166px;
+  left: 24px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 500;
+  color: var(--greengreen-400);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .text-wrapper-21 {
+  position: absolute;
+  width: 64px;
+  top: 69px;
+  left: 27px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-700);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.admin-dashboard .time {
+  position: absolute;
+  width: 139px;
+  top: 166px;
+  left: 90px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 500;
+  color: var(--graygray-400);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .BG {
+  position: absolute;
+  width: 503px;
+  height: 221px;
+  top: 952px;
+  left: 345px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px #0000000d;
+}
+
+.admin-dashboard .rounded-rectangle {
+  position: absolute;
+  width: 503px;
+  height: 221px;
+  top: 983px;
+  left: 345px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 14px #0000000d;
+}
+
+.admin-dashboard .title-2 {
+  position: absolute;
+  width: 205px;
+  top: 980px;
+  left: 368px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-400);
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.admin-dashboard .element-7 {
+  position: absolute;
+  width: 61px;
+  top: 1123px;
+  left: 369px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 500;
+  color: var(--greengreen-400);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .text-wrapper-22 {
+  position: absolute;
+  width: 38px;
+  top: 1023px;
+  left: 372px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 700;
+  color: var(--graygray-700);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.admin-dashboard .time-2 {
+  position: absolute;
+  width: 139px;
+  top: 1123px;
+  left: 435px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 500;
+  color: var(--graygray-400);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .vector-2 {
+  position: absolute;
+  width: 73px;
+  height: 70px;
+  top: 735px;
+  left: 756px;
+}
+
+.admin-dashboard .logo {
+  position: absolute;
+  width: 97px;
+  height: 93px;
+  top: 58px;
+  left: 122px;
+}
+
+.admin-dashboard .text-wrapper-23 {
+  top: 168px;
+  left: 57px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 28px;
+  line-height: normal;
+  position: absolute;
+  font-family: "Kumbh Sans", Helvetica;
+  letter-spacing: 0;
+}
+
+.admin-dashboard .line {
+  top: 236px;
+  left: 10px;
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.admin-dashboard .sidebar-m-enu {
+  position: absolute;
+  width: 320px;
+  height: 1208px;
+  top: 0;
+  left: -1;
+}
+
+.admin-dashboard .bg {
+  position: absolute;
+  width: 320px;
+  height: 1200px;
+  top: 0px;
+  left: 5px;
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+.admin-dashboard .overlap-6 {
+  position: relative;
+  width: 338px;
+  height: 1227px;
+  left: -4px;
+}
+
+.admin-dashboard .sidebar-dashboard {
+  position: absolute;
+  width: 334px;
+  height: 1227px;
+  top: 0;
+  left: 4px;
+}
+
+.admin-dashboard .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  padding: 0px 47px;
+  position: absolute;
+  top: 174px;
+  left: 0;
+}
+
+.admin-dashboard .frame-10 {
+  position: relative;
+  width: 230px;
+  height: 59px;
+  background-color: #509bdb;
+  border-radius: 10px;
+}
+/* .admin-dashboard .frame-10:hover {
+ background-color: #509bdb;
+} */
+
+.admin-dashboard .frame-11 {
+  display: inline-flex;
+  position: relative;
+  width: fit-content;
+  margin-top: -14px;
+  margin-bottom: -12px;
+  font-weight: 800;
+  font-size: 26px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0px 0px;
+  position: relative;
+  top: 17px;
+  left: 7px;
+  color: #ffffff;
+  /* color: #746f6f; */
+  line-height: normal;
+  font-family: "Kumbh Sans", Helvetica;
+}
+/* .admin-dashboard .frame-10,
+.admin-dashboard .frame-11:hover {
+  font-size: 28px;
+  color: white;
+} */
+
+.admin-dashboard .vuesax-broken-home {
+  position: relative;
+  width: 35px;
+  height: 30.33px;
+  margin-top: -10.67px;
+  margin-bottom: -10.67px;
+}
+/* .solar--home-2-bold {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M2.52 7.823C2 8.77 2 9.915 2 12.203v1.522c0 3.9 0 5.851 1.172 7.063S6.229 22 10 22h4c3.771 0 5.657 0 6.828-1.212S22 17.626 22 13.725v-1.521c0-2.289 0-3.433-.52-4.381c-.518-.949-1.467-1.537-3.364-2.715l-2-1.241C14.111 2.622 13.108 2 12 2s-2.11.622-4.116 1.867l-2 1.241C3.987 6.286 3.038 6.874 2.519 7.823M11.25 18a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #746f6f;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%; 
+}
+  */
+
+.solar--home-2-broken {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M2.52 7.823C2 8.77 2 9.915 2 12.203v1.522c0 3.9 0 5.851 1.172 7.063S6.229 22 10 22h4c3.771 0 5.657 0 6.828-1.212S22 17.626 22 13.725v-1.521c0-2.289 0-3.433-.52-4.381c-.518-.949-1.467-1.537-3.364-2.715l-2-1.241C14.111 2.622 13.108 2 12 2s-2.11.622-4.116 1.867l-2 1.241C3.987 6.286 3.038 6.874 2.519 7.823M11.25 18a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0z' clip-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #ffffff;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+/* .admin-dashboard .frame-10,
+.solar--home-2-broken:hover {
+  background-color: white;
+} */
+.admin-dashboard .text-wrapper-24 {
+  position: relative;
+  width: fit-content;
+  margin-top: -14px;
+  margin-bottom: -12px;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: normal;
+  font-family: "Kumbh Sans", Helvetica;
+  color: #746f6f;
+  letter-spacing: 0;
+}
+.admin-dashboard .text-wrapper-24:hover {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.admin-dashboard .frame-12 {
+  position: relative;
+  width: 230px;
+  height: 59px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.admin-dashboard .frame-12:hover {
+  background-color: #509adb2e;
+}
+
+.admin-dashboard .frame-13 {
+  display: inline-flex;
+  height: 17px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0px 0px;
+  position: relative;
+  top: 15px;
+  left: 13px;
+}
+
+.admin-dashboard .img-3 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-top: -9.5px;
+  margin-bottom: -9.5px;
+}
+
+.admin-dashboard .text-wrapper-25 {
+  position: relative;
+  width: fit-content;
+  margin-top: -12.5px;
+  margin-bottom: -10.5px;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 800;
+  color: #746f6f;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .frame-14 {
+  display: inline-flex;
+  height: 17px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0px 0px 0.5px;
+  position: relative;
+  top: 15px;
+  left: 13px;
+}
+
+.admin-dashboard .logo-2 {
+  position: absolute;
+  width: 97px;
+  height: 97px;
+  top: 17px;
+  left: 109px;
+  background-image: url(./img/logo-2.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-15 {
+  display: inline-flex;
+  height: 43px;
+  align-items: center;
+  gap: 16px;
+  padding: 0px 25px;
+  position: absolute;
+  top: 113px;
+  left: 42px;
+}
+
+.admin-dashboard .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  font-family: "Kumbh Sans", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.admin-dashboard .line-2 {
+  top: 155px;
+  left: 4px;
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.admin-dashboard .frame-16 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 659px;
+  left: 351px;
+  background-image: url(./img/switch-base-3.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-17 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 618px;
+  left: 351px;
+  background-image: url(./img/switch-base-4.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-18 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 577px;
+  left: 351px;
+  background-image: url(./img/switch-base-5.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-19 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 488px;
+  left: 351px;
+  background-image: url(./img/switch-base-6.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-20 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 448px;
+  left: 351px;
+  background-image: url(./img/switch-base-7.svg);
+  background-size: 100% 100%;
+}
+
+.admin-dashboard .frame-21 {
+  position: absolute;
+  width: 52px;
+  height: 34px;
+  top: 407px;
+  left: 351px;
+  background-image: url(./img/switch-base-8.svg);
+  background-size: 100% 100%;
+}

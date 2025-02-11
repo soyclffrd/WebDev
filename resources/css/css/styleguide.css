@@ -1,0 +1,10 @@
+:root {
+  --black: rgba(47, 47, 47, 1);
+  --primary-color: rgba(99, 88, 220, 1);
+  --blackampwhitewhite: rgba(255, 255, 255, 1);
+  --variable-collection-main-color: rgba(73, 130, 239, 1);
+  --variable-collection-particle1: rgba(66, 86, 124, 1);
+  --variable-collection-danger: rgba(214, 108, 108, 1);
+  --variable-collection-color: rgba(35, 50, 85, 0.8);
+  --variable-collection-color-2: rgba(255, 192, 79, 1);
+}
